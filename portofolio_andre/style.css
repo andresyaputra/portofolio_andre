@@ -1,0 +1,87 @@
+/* Reset CSS */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+/* Header */
+header {
+    background-color: #fa06d1;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.profile h1 {
+    font-size: 36px;
+    margin: 5px 0;
+}
+
+.profile p {
+    font-size: 18px;
+    margin: 0;
+}
+
+/* Skills */
+.skills {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.skills h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.skills ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.skills li {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.chart-container {
+    max-width: 400px; /* Sesuaikan lebar sesuai kebutuhan */
+    margin: 0 auto;
+}
+
+/* Footer */
+footer {
+    background-color: #fa06d1;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
